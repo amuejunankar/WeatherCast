@@ -22,6 +22,7 @@ body{
 }    
 
 nav a{
+    float: right;
     overflow: hidden;
     text-align: center;
     color: #fff;
