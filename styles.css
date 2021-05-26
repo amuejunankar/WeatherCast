@@ -19,6 +19,7 @@ body{
 }
 .fixed-footer{
     bottom: 0;
+    font-size: 18px;
 }    
 
 nav a{
