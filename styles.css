@@ -1,0 +1,48 @@
+
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: rgb(80, 73, 59);
+    padding: 10px;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}    
+
+nav a{
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 30px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+}
+  
+nav a.active {
+    background-color: #04AA6D;
+    color: white;
+    
+}
+
+
+.container p{
+    line-height: 10px;
+    color: rgb(236, 226, 226);
+}
