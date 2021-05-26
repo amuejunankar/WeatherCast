@@ -23,6 +23,7 @@ body{
 
 nav a{
     overflow: hidden;
+    text-align: center;
     color: #fff;
     text-decoration: none;
     padding: 8px 30px;
