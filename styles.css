@@ -22,27 +22,24 @@ body{
 }    
 
 nav a{
-    float: right;
+    font-family: verdana;
     overflow: hidden;
+    font-size: 20px;
     text-align: center;
     color: #fff;
     text-decoration: none;
-    padding: 8px 30px;
+    padding: 8px 26px;
     display: inline-block;
 }
 
 nav a:hover {
-    background-color: #ddd;
-    color: black;
-    
+    background-color: rgb(123, 138, 124);
+    color: black; 
 }
-  
 nav a.active {
-    background-color: #04AA6D;
-    color: white;
-    
+    background-color: #00ffff;
+    color: rgb(0, 0, 0);
 }
-
 
 .container p{
     line-height: 10px;
