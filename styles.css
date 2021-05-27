@@ -12,7 +12,7 @@
 }
 
 input[type="text"] {
-    height: 50px;
+    height: 30px;
     width: 60%;
     background: #e7e7e7;
     font-family:'Times New Roman', Times, serif;
@@ -20,7 +20,7 @@ input[type="text"] {
     font-size: 20px;
     border: none;
     border-radius: 6px;
-
+    padding: 10px 10px;
 }   
 
 input[type="submit"] {
@@ -32,4 +32,8 @@ input[type="submit"] {
     font-size: 20px;
     border: none;
     border-radius: 6px;
+}
+
+.display {
+    text-align:center;
 }
