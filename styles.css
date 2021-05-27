@@ -2,3 +2,22 @@
     text-align:center;
     padding-top: 150px;
 }
+
+.heading {
+    text-align:center;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 12%;
+    color: white;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 600px;
+    background: #e7e7e7;
+    font-family:'Times New Roman', Times, serif
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+
+}   
