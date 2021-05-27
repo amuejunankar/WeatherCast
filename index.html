@@ -3,6 +3,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+
 <style>
 body {
   margin: 0;
@@ -60,11 +62,6 @@ body {
   }
 }
 
-.information {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding-top: 10px;
-}
 
 
 </style>
@@ -81,10 +78,18 @@ body {
   </a>
 </div>
 
-<div class="information" style="padding-left:16px">
-  <h2>Weather Forcast Information</h2>
-  <p>All Information will be here.\n Updated</p>
+<div class="input">
+  <input type="text" class="SubmitValue">
+  <input type="submit" value="Submit">
+
 </div>
+
+<div class="display">
+  <h1 class="name"></h1>
+  <p class="description"></p>
+  <p class="temp"></p>
+</div>
+
 
 <script>
 function myFunction() {
