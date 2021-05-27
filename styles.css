@@ -13,11 +13,23 @@
 
 input[type="text"] {
     height: 50px;
-    width: 600px;
+    width: 60%;
     background: #e7e7e7;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 20px;
     border: none;
+    border-radius: 6px;
 
 }   
+
+input[type="submit"] {
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+}
