@@ -39,11 +39,11 @@ input[type="submit"] {
 }
 
 .card{
-    width: 30%;
+    width: 50%;
     background-color: #d5b4e0;
-    height: 40vh;
+    height: 35vh;
     margin: 40px auto;
-    border-radius: 6px;
+    border-radius: 8px;
   }
   
   
