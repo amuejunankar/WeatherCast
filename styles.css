@@ -37,3 +37,30 @@ input[type="submit"] {
 .display {
     text-align:center;
 }
+
+.card{
+    width: 50%;
+    background-color:aqua;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 6px;
+  }
+  
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
