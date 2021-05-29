@@ -39,8 +39,8 @@ input[type="submit"] {
 }
 
 .card{
-    width: 50%;
-    background-color:aqua;
+    width: 30%;
+    background-color: #d5b4e0;
     height: 40vh;
     margin: 50px auto;
     border-radius: 6px;
@@ -60,7 +60,9 @@ input[type="submit"] {
   }
   
   .card p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin:40px 0;
-    font-size:20px;
+    margin: 40px 0;
+    font-size: 20px;
   }
+
