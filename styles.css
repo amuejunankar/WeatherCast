@@ -7,20 +7,27 @@
     text-align:center;
     font-size: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 5%;
     color: white;
+    padding-top: 60px;
+}
+
+.heading:hover {
+  color: rgb(153, 231, 27);
+  transition: 1.5s;
+
 }
 
 input[type="text"] {
     height: 30px;
     width: 55%;
     background: #e7e7e7;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 20px;
     border: none;
     border-radius: 6px;
     padding: 10px 5px;
+    padding-left: 15px;;
 }   
 
 input[type="submit"] {
@@ -32,6 +39,12 @@ input[type="submit"] {
     font-size: 18px;
     border: none;
     border-radius: 6px;
+}
+
+.submit:hover {
+  background-color:#98d3db;
+  transition: 0.5s;
+  
 }
 
 .display {
@@ -47,7 +60,6 @@ input[type="submit"] {
     border-radius: 12px;
 
   }
-  
   
   .close{
     float: right;
