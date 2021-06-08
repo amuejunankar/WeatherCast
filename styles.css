@@ -8,14 +8,10 @@
     font-size: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    padding-top: 60px;
+    
+    padding: 25px 50px;
 }
 
-.heading:hover {
-  color: rgb(153, 231, 27);
-  transition: 1.5s;
-
-}
 
 input[type="text"] {
     height: 30px;
@@ -54,10 +50,11 @@ input[type="submit"] {
 .card{
     max-width: 450px;
     width: 75%;
-    background-color: #d5b4e0;
+    background-color: #62476b;
     height: 300px;
     margin: 90px auto;
     border-radius: 12px;
+    opacity: 93%;
 
   }
   
@@ -71,6 +68,7 @@ input[type="submit"] {
   .card h1{
     padding: 5px 0;
     text-align: center;
+    color:#f8f5f5
   }
   
   .card p{
@@ -78,6 +76,11 @@ input[type="submit"] {
     text-align: center;
     margin: 40px 0;
     font-size: 20px;
+    color: #e0dcdc;
     
   }
 
+
+/* COMMENTS /*
+/* .card bg color  d5b4e0 */
+  
