@@ -1,6 +1,6 @@
 .input {
     text-align:center;
-    padding-top: 45px;
+    padding-top: 30px;
 }
 
 .heading {
@@ -32,7 +32,6 @@ input[type="submit"] {
     font-size: 18px;
     border: none;
     border-radius: 6px;
-    
 }
 
 .display {
@@ -40,11 +39,11 @@ input[type="submit"] {
 }
 
 .card{
-    width: 50%;
+    width: 75%;
     background-color: #d5b4e0;
-    height: 35vh;
-    margin: 40px auto;
-    border-radius: 8px;
+    height: 45%;
+    margin: 80px auto;
+    border-radius: 12px;
   }
   
   
@@ -65,5 +64,6 @@ input[type="submit"] {
     text-align: center;
     margin: 40px 0;
     font-size: 20px;
+    
   }
 
