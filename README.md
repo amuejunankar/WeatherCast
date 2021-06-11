@@ -9,8 +9,7 @@
 <h3> //  Here are the team members //</h3>
  1 > Amit Junankar     <br />
  2 > Gaurav Kude       <br />
- 3 > Sanskar Shete     <br />
- 4 > Rutuja Bhumare    <br />
- 5 > Sarang Tadaskar   <br />
- 6 > Neha Kukade
+ 3 > Rutuja Bhumare    <br />
+ 4 > Sarang Tadaskar   <br />
+ 5 > Neha Kukade
   
