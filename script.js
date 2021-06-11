@@ -24,3 +24,17 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=6
 .catch(err => alert("Wrong city name!"));
 })
 
+
+
+// Enter Key submission code
+var input =  document.getElementById("myinput");
+
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById("mybtn").click();
+  }
+});
+
+// END Enter key Code
+
