@@ -6,19 +6,15 @@
 <link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
-
-<style>
-
-
-</style>
+<link rel="stylesheet" href="toggle.css">
 
 </head>
-<body background="images/modes/light2.jpg">
+<body>
 
 
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">Home</a>
-  <a href="#team">Team</a>
+  <a href="team.html">Team</a>
   <a href="#about">About</a>
   <a href="#contact">Contact Us</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -42,6 +38,22 @@
     <p class="desc"></p>
   </div>
 </div>
+
+
+
+<!-- Light Dark Mode -->
+
+<div class="btn">
+  <input type="checkbox" class="checkbox"  id="checkbox">
+  <label for="checkbox" class="label">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+    <div class="ball"></div>
+  </label>
+</div>
+
+
+
 
 
 <script>

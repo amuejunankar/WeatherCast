@@ -26,7 +26,8 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=6
 
 
 
-// Enter Key submission code
+// >>>>  Enter Key submission code  <<<<<<
+
 var input =  document.getElementById("myinput");
 
 input.addEventListener("keyup", function(event) {
@@ -38,3 +39,12 @@ input.addEventListener("keyup", function(event) {
 
 // END Enter key Code
 
+
+// TOGGLE DARK MODE CODE //
+
+const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', () => 
+{
+  document.body.classList.toggle('dark');
+});
