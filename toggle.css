@@ -1,0 +1,50 @@
+/*  FOR DARK TOGGLE */
+.checkbox {
+    display: none;
+    
+}
+
+body.dark {
+  background-color: #1b1616;
+}
+
+.label {
+    background-color:#3f617c;
+    height: 26px;
+    width: 50px;
+    display: flex;
+    border-radius: 17px;
+    padding-top: 3.5px;
+    margin-left: 50%;
+    
+}
+
+.fa-moon {
+  color:#62476b;
+}
+
+.fa-sun {
+  color:#7b2bb1
+}
+
+.ball {
+  background-color:#ffffff;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  margin-left: 50%;
+  position: absolute;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(20px);
+}
+
+
+
+
+
+
+

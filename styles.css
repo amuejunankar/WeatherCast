@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  
+  transition: background 0.2s linear;
 }
 
 .topnav {
@@ -72,11 +74,14 @@ body {
     text-align:center;
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 4.5%;
     padding: 25px 50px;
 }
 
+body.dark .heading {
+  color: white;
+}
 
 input[type="text"] {
     height: 30px;
@@ -146,12 +151,20 @@ input[type="submit"] {
   }
 
 
-
-
-
-
-
-
 /* COMMENTS /*
 /* .card bg color  d5b4e0 */
-  
+
+
+
+/*  For TEAM PAGE */
+   .team {
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin: 0;
+     font-size: larger;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top:14%;
+     color: #26e005a9;
+     
+   }
