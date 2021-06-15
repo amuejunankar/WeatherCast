@@ -1,6 +1,7 @@
 /*  FOR DARK TOGGLE */
 .checkbox {
     display: none;
+    
 }
 
 body.dark {
@@ -9,13 +10,13 @@ body.dark {
 }
 
 .label {
-    background-color:#3f617c;
+    background-color:#22883b;
     height: 26px;
     width: 50px;
     display: flex;
     border-radius: 17px;
     padding-top: 3.5px;
-   
+    transform: scale(0.8);
     
 }
 
@@ -25,14 +26,16 @@ body.dark {
   height: 22px;
   width: 22px;
   left: 6px;
-  margin-left: 357px;
+  margin-left: -2px;
   position: absolute;
   transition: transform 0.2s linear;
+  
   
 }
 
 .checkbox:checked + .label .ball {
   transform: translateX(20px);
+  
 }
 
 
