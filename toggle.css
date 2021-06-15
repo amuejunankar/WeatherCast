@@ -15,7 +15,7 @@ body.dark {
     display: flex;
     border-radius: 17px;
     padding-top: 3.5px;
-    margin-left: 50%;
+    margin-left: 45%;
     
 }
 
@@ -33,7 +33,7 @@ body.dark {
   height: 22px;
   width: 22px;
   left: 4px;
-  margin-left: 50%;
+  margin-left: 45%;
   position: absolute;
   transition: transform 0.2s linear;
 }
