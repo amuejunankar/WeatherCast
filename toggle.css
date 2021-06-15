@@ -1,11 +1,11 @@
 /*  FOR DARK TOGGLE */
 .checkbox {
     display: none;
-    
 }
 
 body.dark {
-  background-color: #1b1616;
+  /* background-color: #1b1616; */
+  background-image: url("images/modes/light2.jpg");
 }
 
 .label {
@@ -15,7 +15,7 @@ body.dark {
     display: flex;
     border-radius: 17px;
     padding-top: 3.5px;
-    margin-left: 45%;
+   
     
 }
 
@@ -24,10 +24,11 @@ body.dark {
   border-radius: 50%;
   height: 22px;
   width: 22px;
-  left: 4px;
-  margin-left: 45%;
+  left: 6px;
+  margin-left: 357px;
   position: absolute;
   transition: transform 0.2s linear;
+  
 }
 
 .checkbox:checked + .label .ball {

@@ -11,7 +11,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: rgb(30, 115, 194);
+  
 }
 
 .topnav a {
@@ -25,7 +25,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: rgb(100, 87, 55);
+  background-color: rgb(38, 90, 95);
   color: rgb(255, 255, 255);
 }
 
@@ -100,7 +100,8 @@ input[type="text"] {
 body.dark input[type="text"]  {
     background:#2e1436;
     transition: 0.3s;
-    color: white;
+    color: rgb(255, 255, 255);
+    
 }
 
 
@@ -117,13 +118,18 @@ input[type="submit"] {
 
 body.dark input[type="submit"] {
   background:#2e1436;
-  color: white;
+  color: rgb(200, 189, 189);
   transition: 0.3s;
+  
+}
+
+body.dark .submit:hover {
+  background-color: #3d3d50;
 }
 
 .submit:hover {
   background-color:#98d3db;
-  transition: 0.5s;
+  transition: 0.3s;
   
 }
 
