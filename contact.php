@@ -4,7 +4,7 @@
     $message = $_POST['message'];
 
 
-    $email_from ='junankgg@gmail.com';
+    $email_from ='torresjunankar@gmail.com';
 
     $email_body ="User Name: $name.\n".
                  "User email: $email.\n".
