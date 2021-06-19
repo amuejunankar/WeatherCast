@@ -4,21 +4,90 @@
      <meta charset ="utf-8">
       <title></title>
       <link rel="stylesheet " href="contactus.css">
-      <meta name="viewport" content       ="width=device-width, initial scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+     
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: #1E73C2;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #eff0e6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(38, 90, 95);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #e29b17;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 415px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+</style>
+
+
 </head>
-<body>
+<body background="images/modes/light2.jpg">
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" >Home</a>
+    <a href="team.html" ">Team</a>
+    <a href="about.html">About</a>
+    <a href="contactus.html" class="active">Contact Us</a>
+  
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
 
 <div class="contact-section">
 <h1>Contact Us</h1>
 <form class="contact-form" action="index.html" method="post">
-<input type="text" class="contact-form-text" placeholder ="Your name">
-<input type="email" class="contact-form-text" placeholder ="Your email">
-<input type ="text " class="contact-form-text" placeholder ="Your phone"
-<textarea class="contact-form-text" placeholder ="Your message "></textarea>
+<input type="text" class="contact-form-text" placeholder ="Your Name">
+<input type="email" class="contact-form-text" placeholder ="Your Email">
+<input type ="text " class="contact-form-text" placeholder ="Your Phone"
+<textarea class="contact-form-text" placeholder ="Your Message "></textarea>
 
 
       
-<textarea class="contact-form-text" placeholder ="Your message "></textarea>
-<input type ="submit" class="contact-form-btn"value="send"
+<textarea class="contact-form-text" placeholder ="Your Message "></textarea>
+<input type ="submit" class="contact-form-btn"value="Send"
 </form>
 </div>
