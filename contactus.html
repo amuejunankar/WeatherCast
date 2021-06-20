@@ -90,17 +90,20 @@ h1 {
      
   </div>
   <form action="https://formsubmit.co/junankgg@gmail.com" id="myform" onsubmit = "return validate();" method="POST" />
+  <input type="hidden" name="_captcha" value="false">
     <div class="input_field">
-        <input type="text" placeholder="Name" id="name" required>
+        <input name="name" type="text" placeholder="Name" id="name" required>
     </div>
     <div class="input_field">
-        <input type="text" placeholder="Email" id="email" required>
+        <input name="email" type="text" placeholder="Email" id="email" required>
     </div>
     <div class="input_field">
-        <textarea placeholder="Message" id="message" required></textarea>
+        <textarea placeholder="Message" id="message" name="message" required></textarea>
     </div>
+
     <div class="btn">
         <input type="submit">
+        <input type="hidden" name="_next" value="https://amuejunankar.github.io/WeatherCast/contactus.html">
     </div>
   </form>
 </div>
