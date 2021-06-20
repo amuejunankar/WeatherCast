@@ -83,15 +83,28 @@ h1 {
 
 
 <div class="contact-section">
-<h1>Contact Us</h1>
 
-<form action="https://formsubmit.co/junankgg@gmail.com" method="POST" />
-<input name="name" type="text" class="contact-form-text" placeholder ="Your Name" required>
-<input name="email" type="email" class="contact-form-text" placeholder ="Your Email" required>
-<input name="message" type ="text " class="contact-form-text" placeholder ="Your Messae" required>
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_autoresponse" value="Thanks we have received your email. We'll reply ASAP">  
-<input type ="submit" class="contact-form-btn"value="Send">
-<input type="hidden" name="_next" value="https://amuejunankar.github.io/WeatherCast/contactus.html">
-</form>
+<div class="wrapper">
+  <h2>Contact us</h2>
+  <div id="error_message">
+     
+  </div>
+  <form action="https://formsubmit.co/junankgg@gmail.com" id="myform" onsubmit = "return validate();" method="POST" />
+    <div class="input_field">
+        <input type="text" placeholder="Name" id="name">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Email" id="email">
+    </div>
+    <div class="input_field">
+        <textarea placeholder="Message" id="message"></textarea>
+    </div>
+    <div class="btn">
+        <input type="submit">
+    </div>
+  </form>
 </div>
+
+<script src="script.js"></script>
+</body>
+</html>
