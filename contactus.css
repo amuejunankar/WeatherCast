@@ -1,68 +1,74 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
   margin: 0;
-  font-family:Arial, Helvetica, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.contact-section {
-  background :url(bg.png)no-repeat center ;
-  background-size: cover;
-  padding :40px 0;
+body{
+  background-image: url('images/modes/light.jpg');
 }
-.contact-section h1{
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+
+.wrapper h2{
   text-align: center;
-  color: #ddd;
-}
-.border{
-  width :100px;
-  height : 10px;
-  background :#34495e;
-  margin : 40px auto;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
 }
 
-.contact-form {
-  max-width : 600px;
-  margin: auto;
-  padding :0 10px;
-  overflow : hidden;
+.wrapper .input_field{
+  margin-bottom: 10px;
 }
 
-.contact-form-text{
-  display : block;
-  width:100%;
-  box-sizing:border-box;
-  margin: 16px 0;
-  border: 0;
-  background :rgb(197, 194, 194);
-  padding: 20px 40px;
-  outline: none; 
-  color: rgb(0, 0, 0);
-  transition: 0.5s;
-  border-radius: 8px;
-  opacity: 80%;
-  font-size: 18px;
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
 }
 
-.contact-form-text:focus{
- box-shadow: 0 0 10px 4px #34495e;
-}
-textarea.contact-form-text{
- resize: none;
-
- height : 120px;
-}
-.contact-form-btn{
- float : right ;
- border :0;
- width: 20%;
- background : #32853d;
- color: rgb(255, 255, 255);
- padding: 12px 35px;
- border-radius: 10px;
- cursor:pointer;
- transition : 0.5s;
+.wrapper textarea{
+  resize: none;
+  height: 80px;
 }
 
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
 
-.contact-form-btn:hover{
-  background : #2980b9;
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
 }
