@@ -23,21 +23,23 @@ button.addEventListener('click', function(name){
 fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=658dcff769c91d18bc57ff4058fbdd7f&units=metric')
 .then(response => response.json())
 .then(data => {
-  var tempValue = data['main']['temp'];
+  var tempValue = Math.round(data['main']['temp']);
   var nameValue = data['name'];
   var descValue = data['weather'][0]['description'];
 
+
   main.innerHTML = nameValue;
   desc.innerHTML = ""+descValue;
-  temp.innerHTML = "Temp -> "+tempValue+"° C";
+  temp.innerHTML = +tempValue+"°C";
   input.value ="";
 
 })
 
+
+// catch error if wrong city entered. <<<<
+
 .catch(err => alert("Wrong city name!"));
 })
-
-
 
 // >>>>  Enter Key submission code  <<<<<<
 
@@ -50,7 +52,7 @@ input.addEventListener("keyup", function(event) {
   }
 });
 
-// END Enter key Code
+// END of Enter key Code
 
 
 // TOGGLE DARK MODE CODE //

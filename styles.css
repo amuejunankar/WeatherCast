@@ -62,8 +62,6 @@ body {
 
 
 
-
-
 .input {
     text-align:center;
     padding-top: 30px;
@@ -140,7 +138,7 @@ body.dark .submit:hover {
     max-width: 450px;
     width: 75%;
     background-color: #62476b;
-    height: 300px;
+    height: 335px;
     margin: 90px auto;
     border-radius: 12px;
     opacity: 93%;
@@ -165,6 +163,13 @@ body.dark .submit:hover {
     text-align: center;
     color:#f8f5f5
   }
+
+  .card h2{
+    padding: 5px 0;
+    text-align: center;
+    color:#f8f5f5;
+    font-size: 45px;
+  }
   
   .card p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -175,9 +180,6 @@ body.dark .submit:hover {
     
   }
 
-
-/* COMMENTS /*
-/* .card bg color  d5b4e0 */
 
 
 
