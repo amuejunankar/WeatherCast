@@ -71,13 +71,14 @@ body {
     text-align:center;
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(251, 255, 252);
     margin-top: 4.%;
     padding: 25px 50px;
+    transition: 0.2s;
 }
 
 body.dark .heading {
-  color: white;
+  color: rgb(85, 226, 19);
   transition: 0.3s;
 }
 
