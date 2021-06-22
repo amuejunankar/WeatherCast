@@ -1,3 +1,16 @@
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
+
+
 var input = document.querySelector('.input_text');
 var main = document.querySelector('#name');
 var temp = document.querySelector('.temp');
@@ -92,3 +105,8 @@ function validate(){
   alert("Form Submitted Successfully!");
   return true;
 }
+
+
+
+        
+  
